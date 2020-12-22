@@ -1,0 +1,904 @@
+/* line 5, D:/WebDev/Thanh/lib/sass/main.scss */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 11, D:/WebDev/Thanh/lib/sass/main.scss */
+body,
+button,
+input,
+select,
+textarea {
+  color: #5e5e5e;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+/* line 20, D:/WebDev/Thanh/lib/sass/main.scss */
+a {
+  color: #5e5e5e;
+}
+
+/* line 24, D:/WebDev/Thanh/lib/sass/main.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 28, D:/WebDev/Thanh/lib/sass/main.scss */
+ul {
+  padding-left: 0;
+}
+
+/* line 32, D:/WebDev/Thanh/lib/sass/main.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 37, D:/WebDev/Thanh/lib/sass/main.scss */
+.search-form .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 41, D:/WebDev/Thanh/lib/sass/main.scss */
+.search-form button[type="submit"] {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 48, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-menu {
+  background-color: #fff;
+}
+
+/* line 52, D:/WebDev/Thanh/lib/sass/main.scss */
+.container-fluid {
+  background-color: #e0f7ff;
+  padding-top: 40px;
+}
+
+/* line 57, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu {
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+}
+
+/* line 63, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu .navbar-toggler {
+  height: 60px;
+  font-size: inherit;
+  padding: .25rem 1rem;
+  border-radius: 0;
+  transition: background-color .3s ease-in-out;
+}
+
+/* line 69, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu .navbar-toggler:focus {
+  outline: none;
+}
+
+/* line 72, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu .navbar-toggler:hover {
+  background-color: #7fc7af;
+}
+
+/* line 76, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav {
+  height: 100%;
+}
+
+/* line 79, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li {
+  position: relative;
+}
+
+/* line 82, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li:hover ul.submenu-lv1 {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 90, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li a.nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+  line-height: 60px;
+}
+
+/* line 96, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li ul.submenu-lv1 {
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+  width: 230px;
+  border-top: 2px solid #7fc7af;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+  transition: visibility 0s linear .2s, opacity .2s linear, transform .2s linear;
+}
+
+/* line 106, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li ul.submenu-lv1::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 30px;
+  border-width: 5px 5px 8px;
+  border-color: transparent transparent #7fc7af;
+  border-style: solid;
+}
+
+/* line 116, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li ul.submenu-lv1 li a {
+  font-size: 13px;
+  color: #347963;
+  display: block;
+  padding: .8em 1.6em;
+  transition: color .3s ease-in-out, background .3s ease-in-out;
+}
+
+/* line 122, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul.nav li ul.submenu-lv1 li a:hover {
+  background: rgba(0, 0, 0, 0.03);
+  color: #5e5e5e;
+}
+
+/* line 133, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul:first-child li a.nav-link {
+  font-size: 13px;
+  color: #347963;
+  transition: color .3s ease-in-out, background .3s ease-in-out;
+}
+
+/* line 137, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu ul:first-child li a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.03);
+  color: #5e5e5e;
+}
+
+/* line 146, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu #social-links li a {
+  color: #b9b9b9;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 149, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-menu #social-links li a:hover {
+  color: #347963;
+}
+
+/* line 157, D:/WebDev/Thanh/lib/sass/main.scss */
+.slogan {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/* line 160, D:/WebDev/Thanh/lib/sass/main.scss */
+.slogan #company-name {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+/* line 165, D:/WebDev/Thanh/lib/sass/main.scss */
+.slogan #company-name a {
+  color: #30725d;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 168, D:/WebDev/Thanh/lib/sass/main.scss */
+.slogan #company-name a:hover {
+  color: #5e5e5e;
+}
+
+/* line 173, D:/WebDev/Thanh/lib/sass/main.scss */
+.slogan span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* line 181, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside {
+  background-color: #fff;
+  padding: 74px;
+}
+
+/* line 185, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .post-title {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+
+/* line 189, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside img {
+  margin-bottom: 40px;
+}
+
+/* line 192, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside #post-instruction {
+  margin-top: 50px;
+  margin-bottom: 88px;
+}
+
+/* line 197, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#article-homepage {
+  padding: 40px;
+}
+
+/* line 203, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article.post-content ul#services i {
+  color: #ff3300;
+}
+
+/* line 208, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article.post-content ul#benefits i {
+  color: #00cc00;
+}
+
+/* line 213, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article.post-content .course {
+  margin-bottom: 37px;
+}
+
+/* line 215, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article.post-content .course.ccna {
+  margin-bottom: 0;
+}
+
+/* line 218, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article.post-content .course h2 {
+  text-align: center;
+  margin: 15px 0 0;
+}
+
+/* line 224, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article h3 {
+  color: #1279BE;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+/* line 231, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article .list-btns {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 234, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article .list-btns a {
+  background: #32373c;
+  display: block;
+  padding: .667em 1.333em;
+  border-radius: 1.55em;
+  color: #fff !important;
+  font-size: 1.125em;
+}
+
+/* line 242, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article .list-btns a:first-child {
+  margin-right: 0.5em;
+}
+
+/* line 247, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#article-about h2 {
+  font-size: 16px;
+  display: inline;
+  font-weight: bold;
+}
+
+/* line 254, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#training-programs h2 {
+  font-size: 30px;
+}
+
+/* line 259, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#consult-design-conduct-system figure, .main-content #content-outside #content-inside article#activities-news figure {
+  margin-bottom: 40px;
+}
+
+/* line 261, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#consult-design-conduct-system figure img, .main-content #content-outside #content-inside article#activities-news figure img {
+  margin-bottom: 20px;
+}
+
+/* line 264, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#consult-design-conduct-system figure a, .main-content #content-outside #content-inside article#activities-news figure a {
+  color: #347963;
+  transition: color .3s ease-in-out;
+}
+
+/* line 267, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#consult-design-conduct-system figure a:hover, .main-content #content-outside #content-inside article#activities-news figure a:hover {
+  color: #5e5e5e;
+}
+
+/* line 275, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#network-management-training figcaption a {
+  color: #347963;
+  transition: color .3s ease-in-out;
+}
+
+/* line 278, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#network-management-training figcaption a:hover {
+  color: #5e5e5e;
+}
+
+/* line 285, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#recruitment-news h2 {
+  font-size: 18px;
+}
+
+/* line 290, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#experiences-news h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* line 295, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#experiences-news h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 301, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact h5 {
+  font-size: 26px;
+  margin-bottom: 34px;
+}
+
+/* line 305, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact .address-item {
+  color: #347963;
+  transition: color .3s ease-in-out;
+}
+
+/* line 308, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact .address-item:hover {
+  color: #5e5e5e;
+}
+
+/* line 312, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials {
+  display: flex;
+}
+
+/* line 314, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li {
+  margin-right: 8px;
+}
+
+/* line 316, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18px;
+  transition: transform .1s ease;
+}
+
+/* line 326, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a:hover {
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 330, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a.instagram {
+  background-color: #f00075;
+}
+
+/* line 333, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a.facebook {
+  background-color: #1778f2;
+}
+
+/* line 336, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a.twitter {
+  background-color: #1da1f2;
+}
+
+/* line 339, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside article#contact #socials li a.wordpress {
+  background-color: #3499cd;
+}
+
+/* line 348, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns {
+  font-size: 12px;
+  margin-top: 38px;
+}
+
+/* line 352, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .title span {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 14px 0 0;
+  display: inline-block;
+}
+
+/* line 359, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .share-btns {
+  margin: 14px 0;
+}
+
+/* line 361, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .share-btns li {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+/* line 364, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .share-btns li a {
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: #f8f8f8;
+}
+
+/* line 371, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .share-btns li a i {
+  margin-right: 3px;
+  font-size: 14px;
+}
+
+/* line 375, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .share-btns li a:hover {
+  border: 1px solid #999;
+}
+
+/* line 382, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .like-btn a {
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+/* line 389, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .like-btn a i {
+  margin-right: 3px;
+  color: #0066ff;
+}
+
+/* line 393, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .like-btn a:hover {
+  border: 1px solid #999;
+}
+
+/* line 397, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .share-like-btns .like-btn p {
+  margin: 3px 0 0;
+}
+
+/* line 403, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside #article-homepage {
+  color: #fff;
+  background: url("../imgs/home/02.jpg") no-repeat;
+  backgrounds-size: cover;
+  background-position: 50%;
+}
+
+/* line 410, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .cham-ngon {
+  font-size: 1.75em;
+  font-weight: 700;
+  text-align: center;
+  border-left: 5px solid #7fc7af;
+  font-style: italic;
+  padding: 0.8em 1.6em;
+  color: #5e5e5e;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+/* line 423, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form input, .main-content #content-outside #content-inside .contact-form textarea {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* line 427, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form input {
+  border-radius: 0;
+}
+
+/* line 431, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form label {
+  font-weight: 700;
+}
+
+/* line 433, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form label span {
+  font-size: 85%;
+  font-weight: 400;
+}
+
+/* line 439, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form button[type="submit"] {
+  color: #fff;
+  font-size: 1.125em;
+  background-color: #32373c;
+  border-radius: 1.55em;
+  transition: background 0.3s ease-in-out;
+}
+
+/* line 445, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form button[type="submit"]:hover {
+  background: #b9b9b9;
+}
+
+/* line 451, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form.contact-form_contact-page button[type="submit"] {
+  color: #424242;
+  background-color: #7fc7af;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 8px 16px;
+  transition: background .3s ease-in-out;
+}
+
+/* line 458, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #content-outside #content-inside .contact-form.contact-form_contact-page button[type="submit"]:hover {
+  background-color: #b9b9b9;
+}
+
+/* line 470, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar {
+  padding-top: 30px;
+  padding-left: 58px;
+  overflow: hidden;
+}
+
+/* line 476, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #follow-button a {
+  display: inline-block;
+  background: #2ea2cc;
+  border-radius: 2px;
+  padding: 1px 6px;
+  color: #fff;
+  transition: all 0.3s ease-out;
+  font-size: 12px;
+}
+
+/* line 484, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #follow-button a:hover {
+  background-color: #1e8cbe;
+}
+
+/* line 487, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #follow-button a .follow-button-logo {
+  margin-right: 4px;
+}
+
+/* line 492, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .follow-count {
+  background: #fff;
+  border: 1px solid #c1c1c1;
+  height: 20px;
+  line-height: 16px;
+  margin-left: 6px;
+  min-width: 15px;
+  padding: 1px 4px;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 2px;
+  color: #888;
+  font-size: 9px;
+}
+
+/* line 506, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .follow-count-arrow {
+  height: 0;
+  left: 2px;
+  position: relative;
+  width: 5px;
+  z-index: 2;
+  top: -15px;
+}
+
+/* line 514, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .follow-count-arrow span:first-child, .main-content #sidebar .follow-count-arrow span:last-child {
+  border-color: transparent #c1c1c1 transparent;
+  border-style: solid;
+  border-width: 4px 5px 4px 0;
+  display: block;
+  position: relative;
+  top: 1px;
+}
+
+/* line 522, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .follow-count-arrow span:last-child {
+  border-right-color: #fff;
+  left: 2px;
+  top: -7px;
+}
+
+/* line 529, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 534, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .sidebar-widget {
+  margin-bottom: 60px;
+}
+
+/* line 536, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .sidebar-widget h3 {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* line 540, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .sidebar-widget h3::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 46%;
+  margin-left: 0.8em;
+}
+
+/* line 549, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar .sidebar-widget figcaption {
+  text-align: center;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+}
+
+/* line 558, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #video-full-course h3::after {
+  border-bottom: none;
+}
+
+/* line 566, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #xem-nhieu-nhat #posts li {
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+}
+
+/* line 568, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #xem-nhieu-nhat #posts li a {
+  display: block;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  display: flex;
+}
+
+/* line 573, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #xem-nhieu-nhat #posts li a img {
+  align-self: flex-start;
+  margin-right: 30px;
+}
+
+/* line 577, D:/WebDev/Thanh/lib/sass/main.scss */
+.main-content #sidebar #xem-nhieu-nhat #posts li a span {
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* line 588, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer {
+  background: #e0f7ff;
+}
+
+/* line 590, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* line 594, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #container-footer {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 599, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer .widget {
+  max-width: 342px;
+}
+
+/* line 603, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #contact-info {
+  margin: 0 57px;
+}
+
+/* line 607, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer h3.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 614, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer h3.title::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 46%;
+  margin-left: 0.8em;
+}
+
+/* line 624, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #founder a {
+  display: block;
+}
+
+/* line 626, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #founder a#fullname {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 634, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #contact-info #contact-info-detail {
+  margin-top: 20px;
+}
+
+/* line 636, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #contact-info #contact-info-detail p {
+  display: flex;
+}
+
+/* line 639, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #contact-info #contact-info-detail i {
+  line-height: 1.5;
+  margin-right: 6px;
+}
+
+/* line 645, D:/WebDev/Thanh/lib/sass/main.scss */
+#container-fluid-footer #footer #contact-info #hotline i {
+  margin-right: 6px;
+}
+
+/* line 654, D:/WebDev/Thanh/lib/sass/main.scss */
+.current-page {
+  background: rgba(0, 0, 0, 0.03);
+  color: #5e5e5e;
+}
+
+/* line 660, D:/WebDev/Thanh/lib/sass/main.scss */
+#back-to-top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #d9d9d9;
+  border-radius: 2px;
+  text-align: center;
+  position: fixed;
+  z-index: 100;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media (max-width: 1200px) {
+  /* line 678, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #sidebar {
+    padding-left: 38px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 686, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #sidebar {
+    padding-top: 60px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 697, D:/WebDev/Thanh/lib/sass/main.scss */
+  #container-fluid-footer #footer #container-footer .widget {
+    margin-bottom: 48px;
+    max-width: none;
+  }
+  /* line 701, D:/WebDev/Thanh/lib/sass/main.scss */
+  #container-fluid-footer #footer #container-footer #contact-info {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  /* line 713, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-menu ul.navbar-nav a {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  /* line 720, D:/WebDev/Thanh/lib/sass/main.scss */
+  .container-fluid {
+    padding-top: 1.6rem;
+  }
+  /* line 724, D:/WebDev/Thanh/lib/sass/main.scss */
+  #social-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  /* line 731, D:/WebDev/Thanh/lib/sass/main.scss */
+  header .slogan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 734, D:/WebDev/Thanh/lib/sass/main.scss */
+  header .slogan #company-name {
+    font-size: 2.2rem;
+  }
+  /* line 737, D:/WebDev/Thanh/lib/sass/main.scss */
+  header .slogan span {
+    font-size: 13px;
+  }
+  /* line 744, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #content-outside {
+    padding: 3em 1.5em;
+  }
+  /* line 747, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #content-outside #content-inside img {
+    margin-bottom: 1.5em;
+  }
+  /* line 751, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #content-outside #content-inside article h3 {
+    font-size: 1.5rem;
+  }
+  /* line 755, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #content-outside #content-inside article#contact #address-block {
+    margin-bottom: 50px;
+  }
+  /* line 763, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content .search-form input[type="text"] {
+    width: auto;
+  }
+  /* line 771, D:/WebDev/Thanh/lib/sass/main.scss */
+  #container-fluid-footer #footer #container-footer {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+  /* line 775, D:/WebDev/Thanh/lib/sass/main.scss */
+  #container-fluid-footer #footer #container-footer .search-form .form-control {
+    width: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  /* line 787, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-menu ul.navbar-nav li {
+    margin-right: 3px;
+  }
+  /* line 789, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-menu ul.navbar-nav li:last-child {
+    margin-right: 0;
+  }
+  /* line 798, D:/WebDev/Thanh/lib/sass/main.scss */
+  .main-content #sidebar .search-form .form-control {
+    width: 75%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
